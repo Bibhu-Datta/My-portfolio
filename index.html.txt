@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Upwork</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1> <!-- Change this to your name -->
+        <p>Freelance Developer | Upwork Specialist</p> <!-- Update your profession -->
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here. Highlight your skills, experience, and expertise.</p> <!-- Add your bio -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Arduino Programming</li>
+            <li>Web Development</li>
+            <li>Electronics Design</li>
+            <!-- Add or modify skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3> <!-- Change project title -->
+            <p>Brief description of the project and what it achieves.</p> <!-- Describe your project -->
+            <a href="#">View Project</a> <!-- Link to your project or GitHub repo -->
+        </div>
+
+        <div class="project">
+            <h3>Project Title 2</h3> <!-- Add more projects as needed -->
+            <p>Another project description goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Reach me via <a href="https://www.upwork.com/">Upwork</a></p> <!-- Add your Upwork profile link -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p> <!-- Update copyright info -->
+    </footer>
+</body>
+</html>
