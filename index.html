@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Upwork</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Freelance Developer | Upwork Specialist</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here. Highlight your skills, experience, and expertise.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Arduino Programming</li>
+            <li>Web Development</li>
+            <li>Electronics Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="electronics">Electronics</button>
+        </div>
+
+        <div class="project" data-category="web">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive portfolio website with animations and a contact form.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project" data-category="electronics">
+            <h3>Equalizer Module</h3>
+            <p>Designed a lightweight NE5532-based equalizer for portable audio solutions.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project" data-category="web">
+            <h3>Dynamic LED Control System</h3>
+            <p>An Arduino project that controls WS2812B LED patterns with custom settings.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
