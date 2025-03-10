@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    animation: fadeIn 1s ease-in; /* Page fade-in animation */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    background-color: #0077b5;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h1, h2 {
+    color: #0077b5;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    background-color: #eef7ff;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.filter-btn {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-btn:hover {
+    background-color: #005a8d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #005a8d;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0077b5;
+    color: #fff;
+}
